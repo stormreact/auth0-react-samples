@@ -1,3 +1,31 @@
+
+## My Notes
+
+I got confused and left the {} brackets in initially...
+I also did NOT put in the full domain name but just put **zra**
+
+The file should look like this after modification
+
+This is the original file
+
+```
+export const AUTH_CONFIG = {
+  domain: '{DOMAIN}',
+  clientId: '{CLIENT_ID}',
+  callbackUrl: 'http://localhost:3000/callback'
+}
+```
+
+This is the modified file that works...
+
+```
+export const AUTH_CONFIG = {
+  domain: 'zra.auth0.com',
+  clientId: 'client ID goes here',
+  callbackUrl: 'http://localhost:3000/callback'
+}
+```
+
 # Auth0 React Login
 
 This sample demonstrates how to add authentication to a React application with Auth0. The sample makes use of Auth0's hosted login page which provides centralized authentication. The sample uses create-react-app.
