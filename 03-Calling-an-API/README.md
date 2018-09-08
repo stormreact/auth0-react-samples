@@ -1,3 +1,11 @@
+
+Here are the parameters for the .env file
+
+```
+AUTH0_AUDIENCE=https://zra.auth0.com/api/v2/
+AUTH0_DOMAIN=zra.auth0.com
+```
+
 # Auth0 React Calling an API
 
 This sample demonstrates how to make secure calls to an API after authenticating a user with Auth0. The calls to the API are made with the user's `access_token`. The sample makes use of Auth0's hosted login page which provides centralized authentication. The sample uses create-react-app.
